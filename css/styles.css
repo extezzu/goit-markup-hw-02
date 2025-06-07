@@ -12,15 +12,6 @@ ul {
     list-style: none;
 }
 
-
-h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-
 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -101,14 +92,31 @@ h3 {
     color: #404bbf
 }
 
-.button-h1 {
+
+
+
+
+.section-business {
+    background-color: #2e2f42;
+}
+
+.business-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.business-button {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .button-h1:active,

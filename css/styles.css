@@ -72,32 +72,12 @@ h3 {
     transition: color 0.2s;
 }
 
-.nav-links li a:hover,
-.nav-links li a:focus,
-.button-active:active {
+.nav-links li a:hover {
     color: #404bbf;
 }
 
-/* Button */
-.button-h1 {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    border: none;
-    padding: 16px 32px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.2s;
-}
-
-.button-h1:active,
-.button-h1:hover,
-.button-h1:focus {
-    background-color: #404bbf;
+.nav-links li a:focus {
+    color: #404bbf;
 }
 
 /* Contacts */
@@ -116,6 +96,30 @@ h3 {
     transition: color 0.2s;
 }
 
-.contact li a:hover,
+.contact li a:hover {
+    color: #404bbf;
+}
+
 .contact li a:focus {
-    color: #404bbf; }
+    color: #404bbf;
+}
+
+/* Button */
+.button-h1 {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button-h1:active,
+.button-h1:hover,
+.button-h1:focus {
+    background-color: #404bbf;
+}

@@ -1,159 +1,121 @@
-/** styles.css **/
+/* Base styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #fff;
+    color: #434455;
+    margin: 0;
+}
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
 h1 {
     font-family: "Roboto", sans-serif;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0;
 }
 
 h2 {
     font-family: "Roboto", sans-serif;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin: 0;
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin: 0;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: Regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    background-color: #FFFFFF;
-    color: #434455;
-}
-
-/**
-small {
-    font-family: "Roboto", sans-serif;
-    font-weight: Regular;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 4%;
-}
-**/
-
-/**
-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: Medium;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
-**/
-
-
-
-/**
-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: Regular;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
-    text-decoration: none;
-}
-**/
-
-ul {
-    list-style: none;
-}
-
-/** moya rabota **/
-
+/* Logo */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    text-align: center;
-    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
+/* Navigation */
 .nav-links li a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
-.nav-links li a:hover {
-    color: #404BBF;
-}
-
+.nav-links li a:hover,
+.nav-links li a:focus,
 .button-active:active {
-    color: #404BBF;
-    width: 48px;
-    height: 4px;
-    top: 44px;
-    border-radius: 2px;
-    transform: translateX(-50%);
-    content: "";
+    color: #404bbf;
 }
 
-.contact-info a {
-    font-family: Roboto;
+/* Button */
+.button-h1 {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.button-h1:active,
+.button-h1:hover,
+.button-h1:focus {
+    background-color: #404bbf;
+}
+
+/* Contacts */
+.contact {
+    font-style: normal;
+}
+
+.contact li a {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
-.contact-info a:hover {
-    color: #404BBF;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #404BBF;
-    text-decoration: none;
-}
-
-.button-h1 {
-    width: 169px;
-    height: 56px;
-    gap: 10px;
-    border-radius: 4px;
-    top: 88px;
-    left: 20px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px #00000026;
-    font-family: Roboto;
-    font-weight: 500;    
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    vertical-align: center;
-    color: #FFFFFF;
-}
-
-.button-h1:active {
-    background-color: #404BBF;
-}
+.contact li a:hover,
+.contact li a:focus {
+    color: #404bbf; }

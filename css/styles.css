@@ -119,8 +119,8 @@ h3 {
     cursor: pointer;
 }
 
-.button-h1:active,
-.button-h1:hover,
-.button-h1:focus {
+.business-button:active,
+.business-button:hover,
+.business-button:focus {
     background-color: #404bbf;
 }

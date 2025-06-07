@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="GoIT homework 1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>GoIT homework #1</title>
 </head>
 <body>
     <!-- Top Line (logo + nav) -->
         <header>
             <nav>
-                <a href="./index.html">WebStudio</a>
+                <a href="./index.html" class="logo"><span>Web</span>Studio</a>
                 <ul class="nav-links">
-                    <li><a href="#">Studio</a></li>
+                    <li><a href="#" class="button-active">Studio</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
                 
             <address>
-                <ul>
+                <ul class="contact-info">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
@@ -30,7 +36,7 @@
     <main>
         <section>
             <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button type="button" class="button-h1">Order Service</button>
         </section>
 
         <section>
@@ -78,6 +84,43 @@
                     <img src="./images/card-4.jpg" alt="Daniel Wilson - UI Designer" width="264">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 3 (portfolio) -->
+        <section>
+            <h2>Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img src="./images/portfolio-1.jpg" alt="Banking App" width="360px" height="300px">
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-2.jpg" alt="Cashless Payment" width="360px" height="300px">
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-3.jpg" alt="Meditation App" width="360px" height="300px">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-4.jpg" alt="Taxi Service" width="360px" height="300px">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" width="360px" height="300px">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img src="./images/portfolio-6.jpg" alt="Online Courses" width="360px" height="300px">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
                 </li>
             </ul>
         </section>

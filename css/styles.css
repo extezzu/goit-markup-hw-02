@@ -1,0 +1,159 @@
+/** styles.css **/
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: Bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: Bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: Medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+/**
+small {
+    font-family: "Roboto", sans-serif;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+**/
+
+/**
+medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+**/
+
+
+
+/**
+link {
+    font-family: "Roboto", sans-serif;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: none;
+}
+**/
+
+ul {
+    list-style: none;
+}
+
+/** moya rabota **/
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #2E2F42;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.nav-links li a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #404BBF;
+}
+
+.button-active:active {
+    color: #404BBF;
+    width: 48px;
+    height: 4px;
+    top: 44px;
+    border-radius: 2px;
+    transform: translateX(-50%);
+    content: "";
+}
+
+.contact-info a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #404BBF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #404BBF;
+    text-decoration: none;
+}
+
+.button-h1 {
+    width: 169px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;
+    top: 88px;
+    left: 20px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    font-family: Roboto;
+    font-weight: 500;    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    vertical-align: center;
+    color: #FFFFFF;
+}
+
+.button-h1:active {
+    background-color: #404BBF;
+}

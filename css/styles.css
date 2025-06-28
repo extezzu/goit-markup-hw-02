@@ -42,14 +42,14 @@ a {
     font-style: normal;
 }
 
-.contacts-li {
+.contacts-li-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.button-active:hover, .button-active:focus, .contacts-li:hover, .contacts-li:focus {
+.button-active:hover, .button-active:focus, .contacts-li-link:hover, .contacts-li-link:focus {
     color: #404bbf;
 }
 

@@ -22,7 +22,7 @@ a {
     color: #4d5ae5;
 }
 
-.header-logo .logo-span {
+.header-span {
     color: #2e2f42;
 }
 
@@ -30,7 +30,7 @@ a {
     color: #f4f4fd;
 }
 
-.nav-link {
+.button-active {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -49,7 +49,7 @@ a {
     color: #434455;
 }
 
-.nav-link:hover, .nav-link:focus, .contacts-li:hover, .contacts-li:focus {
+.button-active:hover, .button-active:focus, .contacts-li:hover, .contacts-li:focus {
     color: #404bbf;
 }
 
